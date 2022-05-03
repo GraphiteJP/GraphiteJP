@@ -15,3 +15,7 @@ Third -> <a href = "https://twitter.com/ThirdphiteJP">ThirdphiteJP</a>
 ### Discord
 User -> Graphite#2672
 Server -> <a href = "https://discord.gg/6XRjSQXCgy">Graphiteの雑談</a>
+
+> ## Thank You For Watching!
+
+このリポジトリに"Graphite.java"があるのでみていってね！
