@@ -11,7 +11,8 @@ public class Graphite {
 }
 
 class Twitter {
-	public String userName = "GraphiteJP";
+	public String userName = "Graphite";
+	public String userID = "GraphiteJP";
 	
 	public void send(Object msg) {
 		System.out.println(this.userName + " : " + msg);
