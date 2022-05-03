@@ -4,7 +4,7 @@ public class Graphite {
 		// オブジェクト指向の良さがあんま出ていないプログラムです。
 		
 		Twitter twitter = new Twitter();
-		twitter.send("どうもGraphiteです。");
+		twitter.send("どうもGraphiteです。Twitterフォローよろしく！");
 		twitter.watch(60);
 		twitter.exit();
 	}
