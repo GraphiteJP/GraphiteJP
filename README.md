@@ -7,4 +7,4 @@
 
 > ## Accounts
 
-<a href = "https://twitter.com/GraphiteJP">Twitter : GraphiteJP</a>
+Twitter : <a href = "https://twitter.com/GraphiteJP">GraphiteJP</a>
