@@ -1,26 +1,47 @@
-public class Graphite {
+public class Graphite extends Account {
+	public String userName = "Graphite";
+	public String userId = "@GraphiteJP";
 	
-	public static void main(String[] args) {
-		// オブジェクト指向の良さがあんま出ていないプログラムです。
-		
-		Twitter twitter = new Twitter();
-		twitter.send("どうもGraphiteです。Twitterフォローよろしく！");
-		twitter.watch(60);
-		twitter.exit();
+	@Override
+	public void introduce() {
+		System.out.println("Hi! Name Is " + this.userName + ". Nice To Meet You!\nI Am A Apple Devotee.");
 	}
 }
 
-class Twitter {
-	public String userName = "Graphite";
-	public String userID = "GraphiteJP";
+class Subphite extends Graphite {
+	public String subUserName = "Subphite";
+	public String SubUserId = "@SubphiteJP";
 	
-	public void send(Object msg) {
-		System.out.println(this.userName + " : " + msg);
+	@Override
+	public void introduce() {
+		System.out.println("Hi! Name Is " + this.userName + ". Nice To Meet You!\nPlease Watch My Main Account : " + this.getUserId());
 	}
-	public void watch(int length) {
-		System.out.println(this.userName + "is watching Twitter for " + length + "minutes...");
+}
+
+abstract class Account {
+	public String userName;
+	public String userId;
+	
+	public String getUserName() {
+		return this.userName;
 	}
-	public void exit() {
+	public String getUserId() {
+		return this.userId;
+	}
+	
+	public void introduce() {
+		System.out.println("Hi! My Name Is " + this.userName + ".\nNice To Meet You!");
+	}
+	public final void watchTwitter(int length) {
+		System.out.println(this.userName + "Is Watching Twitter For " + length + "Minutes...");
+	}
+	public final void sendTweet(Object msg) {
+		System.out.println(msg);
+	}
+	public final void replyTweet(String userIdTo, Object msg) {
+		System.out.println(userIdTo + "\n|\n" + msg);
+	}
+	public final void exitTwitter() {
 		System.out.println(this.userName + "exited.");
 	}
 }
