@@ -1,3 +1,3 @@
 > # About Graphite
 
-## My Name Is **"Graphite"**
+> ## My Name Is **"Graphite"**
