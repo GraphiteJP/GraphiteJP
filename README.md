@@ -7,4 +7,11 @@
 
 > ## Accounts
 
-Twitter : <a href = "https://twitter.com/GraphiteJP">GraphiteJP</a>
+### Twitter
+Main -> <a href = "https://twitter.com/GraphiteJP">GraphiteJP</a>
+Sub -> <a href = "https://twitter.com/SubphiteJP">SubphiteJP</a>
+Third -> <a href = "https://twitter.com/ThirdphiteJP">ThirdphiteJP</a>
+
+### Discord
+User -> Graphite#2672
+Server -> <a href = "https://discord.gg/6XRjSQXCgy">Graphiteの雑談</a>
