@@ -37,9 +37,9 @@ interface Account {
     // インターフェース
 
     void introduce();
-    void watch(int length);
-    void send(Object msg);
-    void reply(String userIdTo, Object msg);
+    void watch(int _length);
+    void send(Object _msg);
+    void reply(String _userIdTo, String _userIdFrom, Object _msg);
     void exit();
 }
 
@@ -71,8 +71,8 @@ abstract class User implements Account {
         System.out.println(userId + " : " + _msg);
     }
     @Override
-    public void reply(String _userIdTo, Object _msg) {
-        System.out.println(_userIdTo + "\n|\n" + _msg);
+    public void reply(String _userNameTo, String _userNameFrom, Object _msg) {
+        System.out.println(_userNameTo + "\n|\n" + _userNameFrom + "\n" + _msg);
     }
     @Override
     public void exit() {
